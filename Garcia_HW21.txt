@@ -1,0 +1,93 @@
+Project Name: HW21 HOE 6.4-6.7
+Author: Alyssa Garcia
+Last Modified: may 2 2019
+
+1. Write the CSS for a class that is relatively positioned. This class should appear 15 ­pixels in from the left. Configure the class to have a light green background.
+
+CSS:
+
+.class { position: relative;
+	left: 15px;
+	background-color: #90EE90;
+}
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.class { position: relative;
+	left: 15px;
+	background-color:#90EE90;
+}
+</style>
+</head>
+<body>
+<p class="class"> The text is part of a class that is positioned relatively on the left 15 pixels and its background color is light green. </p>
+</body>
+</html>
+
+2. Write the CSS for an id with the following characteristics: fixed position, light gray background color, bold font weight, and 10 pixels of padding.
+
+
+CSS
+
+#id { position: fixed;
+	background-color: #D3D3D3;
+	font-weight: bold;
+	padding: 10px;
+}
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1 id="id"> This text is fixed in position with a light gray background with bold font and the padding is 10px</h1>
+</body>
+</html>
+
+3. Write the CSS to configure an image file named myimage.gif as the list marker in an unordered list.
+
+CSS
+
+ul { list-style-image: url ("myimage.gif");
+}
+
+HTML
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+ul { list-style-image: url ("myimage.gif"); }
+</style>
+</head>
+<body>
+<ul>
+<li> list item will have an image as the list marker</li>
+</ul>
+</body>
+</html>
+
+4. Write the CSS to configure an unordered list to display a square list marker.
+
+CSS
+
+ul { list-style-type: square; }
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+ul { list-style-type: square; }
+</style>
+</head>
+<body>
+<ul>
+<li> list marker is square</li>
+</ul>
+</body>
+</html>
